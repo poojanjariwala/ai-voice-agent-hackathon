@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.git
+.gitignore
+.freebuff/
+audio_files/
+*.db
+.pytest_cache/
+*.log
+tests/
+frontend/
+sample-data/
+*.md
