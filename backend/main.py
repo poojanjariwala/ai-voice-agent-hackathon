@@ -17,6 +17,7 @@ from backend.database import (
     create_call_record,
     get_all_businesses,
     get_business_record,
+    get_db,
     get_system_analytics,
     increment_call_count,
     save_conversation,
