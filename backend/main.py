@@ -81,7 +81,7 @@ async def health_check():
 
 @app.post("/api/business", tags=["Business"])
 async def create_business(
-    name: str = Form(...),
+    name: str = Form(None),
     language: str = Form(...),
     file: UploadFile = None,
     db: Session = Depends(get_db),
